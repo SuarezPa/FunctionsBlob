@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "testblobjs/test.txt",
+      "connection": "AzureWebJobsBlob"
+    }
+  ],
+  "scriptFile": "../dist/load-obligations-clients-revolving-credit/index.js"
+}
