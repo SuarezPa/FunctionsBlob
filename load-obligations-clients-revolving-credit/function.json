@@ -5,7 +5,7 @@
       "type": "blobTrigger",
       "direction": "in",
       "path": "testblobjs/test.txt",
-      "connection": "AzureWebJobsBlob"
+      "connection": "DefaultEndpointsProtocol=https;AccountName=testreplikblob;AccountKey=AnW+76vLSWPM5VYt3mtgtzzES0awPaIpHU02c3c24hwLLUi3I0uiNZXocSmxqPL+600mDzHhvCCu+AStd6/y3Q==;EndpointSuffix=core.windows.net"
     }
   ],
   "scriptFile": "../dist/load-obligations-clients-revolving-credit/index.js"
